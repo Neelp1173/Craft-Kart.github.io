@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body
+{
+    background-image: url(/Images/bg-2.png);
+    background-attachment: fixed;
+
+} */
+header ul li {
+    margin-left: 100px;
+}
+
+.link_remover {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-size: 21px;
+}
+.bgnav
+{
+    background-image: url(/Images/bg-2.png);
+}
+
+.useless {
+    height: 4400vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    
+        background-image: url(/Images/shop-bg.jpg);
+        background-size: cover;
+    width: 100%;
+    height: 92vh;
+    margin-bottom: 10vh;
+}
+
+.container {
+    margin-bottom: 5vh;
+}
+
+.card {
+    
+    margin-left: 4vw; 
+     margin-right: 4vw;
+    border-radius: 25px;
+}
+.col-lg-4
+{
+    /* border: 1px solid black;
+    border-radius: 25px; */
+    /* margin-right: 25px; */
+
+}
+.d-flex .btn
+{
+    margin-left: 92.5vw;
+    display:flex ;
+    float: right;
+}
+#aboutus
+{
+    font-size: 34px;
+}
+
+.card:hover {
+    webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.55);
+    transition: 0.4s;
+}
+.ptext
+{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 18px;
+}
+.mainh1 {
+    font-size: 3rem;
+    color: #eaddc1;
+}
+
+.mainbtn {
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: #AE76A6;
+    color: #eaddc1;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.setting
+{
+    margin-right: 9px;
+}
+.centerupdown
+{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    font-weight: 600;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
